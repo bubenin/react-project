@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  background: linear-gradient(to right,#3880D7, #2BCDFD);
+  overflow-y: auto;
+  h1{
+    margin-top: 0px;
+  }
+}
+.button{
+  border:none;
+  width: 35px;
+  height: 21px;
+}
+.header{
+  margin-bottom: 10px;
+}
+.addInput{
+  border:none;
+  border: none;
+  border-radius: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  padding:10px;
+}
+.addButton{
+  border: none;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  background-color:rgb(70, 226, 148);
+  color:black;
+  padding:10px;
+}
+
+.task{
+  display:grid;
+  grid-template-columns: 30px 250px 35px 35px;
+  grid-auto-rows: 40px;
+  justify-content: center;
+  align-items:center;
+}
+.editTask{
+  display:grid;
+  grid-template-columns: 250px 35px;
+  justify-content: center;
+  align-items:center;
+}
+.editInput{
+  border:none;
+  border: none;
+  border-radius: 10px;
+  padding:10px;
+}
